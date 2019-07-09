@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block header %}
+
+<link rel="stylesheet" href="{% static 'css/home.css' %}" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+/*For Nav Bar Active Element Displaying the current page----------------*/
+ul.nav_element span.nav-active1{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+/*For Nav Bar Active Element Displaying the current page----------------*/
+</style>
+
+{% endblock %}
+
+
+{% block content %}
+
+<!--Spacing Block-->
+<div class="spacing-9"></div>
+<!--For Spacing after the navbar as it's position is fixed-->
+<!--Spacing Block_______________________-->
+
+<div class="container">
+    <div id="content1" class="content-slide">
+        <div class="intro-header-grid">
+            <div>
+                <span style="color: #555;">HELLO<Br>WORLD</span>&nbsp;
+            </div>
+            <div class="intro-tagline">
+                <h1 style="font-size: 2.4em;">#' Tagging <font color="#5CB85C">Lives</font></h1><br>
+                <h3 style="font-family: google-sans-light;font-weight: 500;">Hello world is an non-profit organisation which aims to broaden the conception of coding. We members of Hello World strive hard to impart our knowledge and introduce the young minds to world of digitalization</h3>
+                <br>
+                <h3 style="font-family: google-sans-light;font-weight: 100;color: #999;">Join Us and be a part of this unique society.</h3><Br>
+                <a href="#" class="join-us">Join Us</a>
+                <a href="#" class="join-us">Know About Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="spacing-4"></div>
+    hi
+</div>
+
+
+<!--Parallax content-->
+<style>
+#parallax1 {
+    height: 35em;
+    background: url("{% static 'assets/background/Background.jpg' %}") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media screen and (max-width: 1100px){
+    #parallax1{
+        height: 25em;
+    }
+}
+@media screen and (max-width: 460px){
+    #parallax1{
+        height: 20em;
+        background: url("{% static 'assets/background/Background-mob.jpg' %}") no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+</style>
+
+<!--Parallax content_______________________-->
+
+
+<div id="parallax1" class="parallax-slide"></div>
+<div id="content1" class="content-slide"></div>
+<div class="container">
+    content
+</div>
+
+{% endblock %}
+
+
+{% block script %}
+<script src="{% static 'js/home.js' %}" type="text/javascript"></script>
+{% endblock %}
