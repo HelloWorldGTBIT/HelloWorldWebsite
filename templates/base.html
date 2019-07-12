@@ -99,6 +99,13 @@
     <!--NavBar Drop Down________________________-->
 
 
+    <!--Mobile Nav Bar-->
+    <div class="mobile_nav_bar">
+        hi
+    </div>
+    <!--Mobile Nav Bar___________________________-->
+
+
     <!--Content block-->
     {% block content %}
     {% endblock %}
@@ -116,6 +123,7 @@
     //Nav Drop Down 2 Login/SignUp Mobile View
     //{% if user.is_authenticated %}
     const signedIn_more = document.getElementById("signedIn_more");
+    const nav_dropdown2 = document.getElementById("nav_dropdown2");
     signedIn_more.onmouseover = () => {
         posX = signedIn_more.offsetLeft;
         nav_dropdown2.style.left = `${posX}px`;
