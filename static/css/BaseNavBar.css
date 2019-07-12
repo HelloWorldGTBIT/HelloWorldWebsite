@@ -170,15 +170,45 @@ div.spacing-9{height: 9em;}
 /*Spacing After Main Nav Bar----------------*/
 
 
+/*Only For BaseNavBar.js File*/
+.main_nav_add{
+    min-height: 3.7em !important;
+    max-height: 3.7em !important;
+    line-height: 3.7em !important;
+    background: #ffffff !important;
+    box-shadow: 0 3px 30px 0.5px rgba(51, 51, 51, 0.589);
+}
+
+.nav_drop_add{
+    top: 3.7em !important;
+}
+/*Only For BaseNavBar.js File-----------------*/
+
+
+/*Animations*/
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fadeOut{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+/*Animations--------------------*/
+
+
 /*Media Query*/
 /*1400px*/
 @media screen and (max-width: 1285px){
     #drop_login2{
         display: block;
     }
+
     div.nav-grid{
         grid-template-columns: 1fr 1fr;
     }
+
     #drop_login1{
         display: none;
     }
@@ -189,6 +219,7 @@ div.spacing-9{height: 9em;}
     #drop_contact2{
         display: block;
     }
+
     #drop_contact1{
         display: none;
     }
@@ -199,6 +230,7 @@ div.spacing-9{height: 9em;}
     ul.nav_element{
         display: none;
     }
+
     ul.nav_element2{
         display: block;
     }
@@ -209,6 +241,7 @@ div.spacing-9{height: 9em;}
     span.nav-logo-text{
         margin: 0;
     }
+
     img.nav-logo{
         margin: 0 -1em;
     }
