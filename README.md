@@ -2,7 +2,9 @@
 
 For the full site please visit: https://github.com/raghavdhingra/HelloWorldWebsite
 
-The WebApp cum Website is under development. <br>
+Website Link: https://helloworldofficial.in
+
+<br>
 Link for the development server: 
 <Br>
 http://hello-world15.herokuapp.com/
