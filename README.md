@@ -2,7 +2,7 @@
 
 For the full site please visit: https://github.com/raghavdhingra/HelloWorldWebsite
 
-Website Link: https://helloworldofficial.in
+Website Link: https://helloworldofficial.in and https://helloworld.gtbit.org/
 
 <br>
 Link for the development server: 
