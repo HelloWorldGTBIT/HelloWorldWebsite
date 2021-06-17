@@ -14,25 +14,25 @@ You are free to make changes in this repository. Just be under some code of cond
 <br>
 The Website is made with the help of Django Framework. So the contributor having knowledge of HTML, CSS, Javascript, Python can contribute to this repository.<br>
 ### Client side languages used:
-HTML - (Hyper Text MarkUp Language) - It's not a language rather its just a markup which defines a webpage and tells the browser that how to display an element on it.
+HTML - (Hyper Text MarkUp Language) - It's not a language rather it's just a markup that defines a webpage and tells the browser that how to display an element on it.
 <br>
-CSS - (Cascading Style Sheet) - It is used for the styling of the webpage. By using this we can define and apply different property to the HTML elements by the use of Classes and IDs.
+CSS - (Cascading Style Sheet) - It is used for the styling of the webpage. By using this we can define and apply different properties to the HTML elements by the use of Classes and IDs.
 <br>
-JavaScript - It is a client sided scripting language. It means JavaScript scripts are read, interpreted and executed in the client, which is your Web browser. It is used to create responsive, interactive elements for web pages, enhancing the user experience.
+JavaScript - It is a client sid scripting language. It means JavaScript scripts are read, interpreted and executed in the client, which is your Web browser. It is used to create responsive, interactive elements for web pages, enhancing the user experience.
 <bR>
   
 ### Server sided language used:
-Python - It is a general purpose scripting language. Nowadays, It is one of the most popular programming language. It is used to make WebApps, GUI, Mobile apps, etc. But here it is used to handle the server.
+Python - It is a general purpose scripting language. Nowadays, It is one of the most popular programming languages. It is used to make WebApps, GUI, Mobile apps, etc. But here it is used to handle the server.
 <br>
 
 ### Framework:
 #### Django - 
-This WebApp is made with the help of Django, which is a python Web Framework. Basically, A framework is a collection of programs that do something useful and which you can use to develop your own applications. It have some set of rules which one have to follow for making up the Application.
+This WebApp is made with the help of Django, which is a python Web Framework. Basically, A framework is a collection of programs that do something useful and which you can use to develop your own applications. It has some set of rules which one has to follow for making up the Application.
 All the languages mentioned above are bind together and used inside this framework. And all these make up our WebApp.
 
   <br><Br>
   <h3>Setting up the WebApp</h3>
-  1.) Clone the projectc onto your local machine.<Br>
+  1.) Clone the project onto your local machine.<Br>
   <Br>2.) Unzip the folder and open it in some IDE or some code-editor like - PyCharm, VS-Code, Atom, etc.<br>
     <br><span id="point3">3.)</span> Set up a virtual environment fot it.<Br>
   Open the terminal in the current folder and write the given command.
@@ -103,7 +103,7 @@ python manage.py runserver 8000
 ```
 It will start the development server on port 8000, that's -> 127.0.0.1:8000 or localhost:8000
 <Br>
-* SAME FOR MACBAOOK and LINUX *
+* SAME FOR MACBOOK and LINUX *
   
 ```
 python3 manage.py runserver <port>
@@ -157,7 +157,7 @@ Then, You should make comments and while defining its CSS, the rule for it is:
 Please make sure not to forget the comments as it provides other contributors to understand the code properly.
 
 ### In JavaScript and Python:
-The same rule apply to these also. Commenting after each function and describing what the function does and leave 2 spaces after each function after defining.
+The same rule applies to these also. Commenting after each function and describing what the function does and leave 2 spaces after each function after defining.
 
 #### For Example-
 In Js:
@@ -192,7 +192,7 @@ def function2(arg):
 
 ```
 ## Use of requirements.txt file
-If You want to use any other library or function which need an import or needed to be downloaded there is a file <b>requirements.txt</b>
+If You want to use any other library or function which needs an import or needed to be downloaded there is a file <b>requirements.txt</b>
 You can specify the library or function there also its version.<br>
 For Example, if we have used any integration for payment like Razorpay having version 1.0.3, then:
 
@@ -201,9 +201,9 @@ For Example, if we have used any integration for payment like Razorpay having ve
 razorpay==1.0.3
 
 ```
-Please write the requirements.txt file in alphabetical orderwise.
+Please write the requirements.txt file in alphabetical order.
 <br><br>
-Again, if you wants to see which are the requirements which are already installed in the virtual environment, then you can run the <b>pip freeze</b> command and it will show every requirement installed in your virtual environment (If You have not installed a virtual environment, <a href="#point3">please see point number 3 above</a>, or click on the link.)
+Again, if you want to see which are the requirements that are already installed in the virtual environment, then you can run the <b>pip freeze</b> command and it will show every requirement installed in your virtual environment (If You have not installed a virtual environment, <a href="#point3">please see point number 3 above</a>, or click on the link.)
 
 ```
 pip freeze
@@ -235,23 +235,23 @@ The Website is made with the help of Django Framework. So the contributor having
 ### Client side languages used:
 HTML - (Hyper Text MarkUp Language) - It's not a language rather its just a markup which defines a webpage and tells the browser that how to display an element on it.
 <br>
-CSS - (Cascading Style Sheet) - It is used for the styling of the webpage. By using this we can define and apply different property to the HTML elements by the use of Classes and IDs.
+CSS - (Cascading Style Sheet) - It is used for the styling of the webpage. By using this we can define and apply different properties to the HTML elements by the use of Classes and IDs.
 <br>
 JavaScript - It is a client sided scripting language. It means JavaScript scripts are read, interpreted and executed in the client, which is your Web browser. It is used to create responsive, interactive elements for web pages, enhancing the user experience.
 <bR>
   
 ### Server sided language used:
-Python - It is a general purpose scripting language. Nowadays, It is one of the most popular programming language. It is used to make WebApps, GUI, Mobile apps, etc. But here it is used to handle the server.
+Python - It is a general purpose scripting language. Nowadays, It is one of the most popular programming languages. It is used to make WebApps, GUI, Mobile apps, etc. But here it is used to handle the server.
 <br>
 
 ### Framework:
 #### Django - 
-This WebApp is made with the help of Django, which is a python Web Framework. Basically, A framework is a collection of programs that do something useful and which you can use to develop your own applications. It have some set of rules which one have to follow for making up the Application.
+This WebApp is made with the help of Django, which is a python Web Framework. Basically, A framework is a collection of programs that do something useful and which you can use to develop your own applications. It has some set of rules which one has to follow for making up the Application.
 All the languages mentioned above are bind together and used inside this framework. And all these make up our WebApp.
 
   <br><Br>
   <h3>Setting up the WebApp</h3>
-  1.) Clone the projectc onto your local machine.<Br>
+  1.) Clone the project onto your local machine.<Br>
   <Br>2.) Unzip the folder and open it in some IDE or some code-editor like - PyCharm, VS-Code, Atom, etc.<br>
     <br><span id="point3">3.)</span> Set up a virtual environment fot it.<Br>
   Open the terminal in the current folder and write the given command.
@@ -322,7 +322,7 @@ python manage.py runserver 8000
 ```
 It will start the development server on port 8000, that's -> 127.0.0.1:8000 or localhost:8000
 <Br>
-* SAME FOR MACBAOOK and LINUX *
+* SAME FOR MACBOOK and LINUX *
   
 ```
 python3 manage.py runserver <port>
@@ -376,7 +376,7 @@ Then, You should make comments and while defining its CSS, the rule for it is:
 Please make sure not to forget the comments as it provides other contributors to understand the code properly.
 
 ### In JavaScript and Python:
-The same rule apply to these also. Commenting after each function and describing what the function does and leave 2 spaces after each function after defining.
+The same rule applies to these also. Commenting after each function and describing what the function does and leave 2 spaces after each function after defining.
 
 #### For Example-
 In Js:
@@ -411,7 +411,7 @@ def function2(arg):
 
 ```
 ## Use of requirements.txt file
-If You want to use any other library or function which need an import or needed to be downloaded there is a file <b>requirements.txt</b>
+If You want to use any other library or function which needs an import or needed to be downloaded there is a file <b>requirements.txt</b>
 You can specify the library or function there also its version.<br>
 For Example, if we have used any integration for payment like Razorpay having version 1.0.3, then:
 
@@ -420,9 +420,9 @@ For Example, if we have used any integration for payment like Razorpay having ve
 razorpay==1.0.3
 
 ```
-Please write the requirements.txt file in alphabetical orderwise.
+Please write the requirements.txt file in alphabetical order.
 <br><br>
-Again, if you wants to see which are the requirements which are already installed in the virtual environment, then you can run the <b>pip freeze</b> command and it will show every requirement installed in your virtual environment (If You have not installed a virtual environment, <a href="#point3">please see point number 3 above</a>, or click on the link.)
+Again, if you want to see which are the requirements that are already installed in the virtual environment, then you can run the <b>pip freeze</b> command and it will show every requirement installed in your virtual environment (If You have not installed a virtual environment, <a href="#point3">please see point number 3 above</a>, or click on the link.)
 
 ```
 pip freeze
